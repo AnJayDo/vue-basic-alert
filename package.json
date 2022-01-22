@@ -1,6 +1,6 @@
 {
   "name": "vue-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/vue-alert.ssr.js",
   "browser": "dist/vue-alert.esm.js",

@@ -12,6 +12,7 @@ export default defineComponent({
 
 <template>
   <div id="app">
-    <vue-alert />
+    <button @click="$refs.alert.doAlert('info',40,'solid','Header Header','This is the information of something you may know haha.')">Click to alert</button>
+    <vue-alert :duration="300" ref="alert" />
   </div>
 </template>
