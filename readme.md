@@ -73,6 +73,7 @@ Please make sure to update tests as appropriate.
 ## Project Status
 Ready for production. We will update more styles in the ``2.0.0``.
  - ``1.0.4`` : 4 types of alert in just 1 style. ``readme.md``, ``vue-basic-alert`` is really basic.
+ - ``1.0.5`` : Fixed bugs
  - ``2.0.0`` : ``To-do`` 2 more styles and customizable icons, etc.
 
 ## License
