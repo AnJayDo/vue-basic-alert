@@ -92,7 +92,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.ts',
     external,
     output: {
-      file: 'dist/vue-alert.esm.js',
+      file: 'dist/vue-basic-alert.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -131,7 +131,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-alert.ssr.js',
+      file: 'dist/vue-basic-alert.ssr.js',
       format: 'cjs',
       name: 'VueAlert',
       exports: 'auto',
@@ -154,7 +154,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-alert.min.js',
+      file: 'dist/vue-basic-alert.min.js',
       format: 'iife',
       name: 'VueAlert',
       exports: 'auto',
