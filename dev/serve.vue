@@ -11,7 +11,6 @@ export default defineComponent({
 </script>
 
 <template>
-  <div id="app">
     <div class="btn-container">
       <button class="btn text-white success"
           @click="$refs.alert
@@ -30,7 +29,6 @@ export default defineComponent({
       <button class="btn text-white warning" @click="$refs.alert.showAlert('warning',35,'solid','Warning 101','This is the information of something you may know Warning.')">Click to Warning alert</button>
     </div>
     <vue-basic-alert :duration="300" ref="alert" />
-  </div>
 </template>
 
 <style>
