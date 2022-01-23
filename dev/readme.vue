@@ -71,6 +71,7 @@
     <li><code>1.0.4</code> : 4 types of alert in just 1 style. <code>readme.md</code>, <code>vue-basic-alert</code> is really basic.</li>
     <li><code>1.0.5</code> : Fixed bugs</li>
     <li><code>1.0.6</code> : Update <code>entry.esm.ts</code> for import, Animations, more position</li>
+    <li><code>1.0.8</code> : Fixed CSS bugs</li>
     <li><code>2.0.0</code> : <code>To-do</code> 2 more styles and customizable icons, etc.</li>
     </ul>
     <h2 id="license">License</h2>

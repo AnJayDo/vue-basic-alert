@@ -1,6 +1,6 @@
 {
   "name": "vue-basic-alert",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Basic Vue Alert Component for basic use cases.",
   "main": "dist/vue-basic-alert.ssr.js",
   "browser": "dist/vue-basic-alert.esm.js",
