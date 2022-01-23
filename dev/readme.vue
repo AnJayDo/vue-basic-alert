@@ -19,6 +19,17 @@
     ...
     });
     </code></pre>
+    <p>Or <code>app.use(VueBasicAlert)</code>.</p>
+    <pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { createApp } <span class="hljs-keyword">from</span> <span class="hljs-string">'vue'</span>;
+    <span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">'App.vue'</span>;
+    <span class="hljs-keyword">import</span> VueBasicAlert <span class="hljs-keyword">from</span> <span class="hljs-string">'vue-basic-alert'</span>
+
+    <span class="hljs-keyword">const</span> app = createApp(App);
+
+    app.use(VueBasicAlert)
+
+    app.mount(<span class="hljs-string">'#app'</span>);
+    </code></pre>
     <p>Add <code>&lt;vue-basic-alert ref=&quot;alert&quot; /&gt;</code> to your <code>app</code>.
     To interact with <code>vue-basic-alert</code>, you can use <code>$ref.alert</code>.</p>
     <p>There are 2 methods: <code>showAlert(alertType: string, iconSize: number, iconType: string ,alertHeader: string, alertMessage: string)</code> and <code>closeAlert()</code></p>
@@ -65,6 +76,7 @@
     <h2 id="license">License</h2>
     <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
     <p>Copyright (c) 2022-present, Jason Anger (An Do)</p>
+
 </template>
 
 <style>

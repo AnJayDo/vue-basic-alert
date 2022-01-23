@@ -30,6 +30,22 @@ export default defineComponent({
 });
 
 ```
+
+Or ``app.use(VueBasicAlert)``.
+
+```javascript
+import { createApp } from 'vue';
+import App from 'App.vue';
+import VueBasicAlert from 'vue-basic-alert'
+
+const app = createApp(App);
+
+app.use(VueBasicAlert)
+
+app.mount('#app');
+
+```
+
 Add ``<vue-basic-alert ref="alert" />`` to your ``app``.
 To interact with ``vue-basic-alert``, you can use ``$ref.alert``.
 
@@ -76,7 +92,7 @@ Please make sure to update tests as appropriate.
 Ready for production. We will update more styles in the ``2.0.0``.
  - ``1.0.4`` : 4 types of alert in just 1 style. ``readme.md``, ``vue-basic-alert`` is really basic.
  - ``1.0.5`` : Fixed bugs
- - ``1.0.6`` : Update ``entry.esm.ts`` for import, Animation, more position
+ - ``1.0.6`` : Update ``entry.esm.ts`` for import, Animations, more position
  - ``2.0.0`` : ``To-do`` 2 more styles and customizable icons, etc.
 
 ## License
