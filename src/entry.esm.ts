@@ -15,7 +15,7 @@ export default /*#__PURE__*/((): InstallableComponent => {
 
   // Attach install function executed by Vue.use()
   installable.install = (app: App) => {
-    app.component('VueAlert', installable);
+    app.component('VueBasicAlert', installable);
   };
   return installable;
 })();

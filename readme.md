@@ -39,14 +39,15 @@ There are 2 methods: ``showAlert(alertType: string, iconSize: number, iconType: 
 <template>
   <div id="app">
     <button 
-        @click="$refs.alert
-        .showAlert(
+        @click="
+          $refs.alert.showAlert(
             'success', // There are 4 types of alert: success, info, warning, error
-            35, // Size of the icon (px)
-            'solid', // Icon styles: now only 2 styles 'solid' and 'regular'
+            'This is the information of something you may know Success.', // Message of the alert
             'Success 200', // Header of the alert
-            'This is the information of something you may know Success.' // Message of the alert
-        )"
+            { iconSize: 35, // Size of the icon (px)
+              iconType: 'solid', // Icon styles: now only 2 styles 'solid' and 'regular'
+              position: 'top right' } // Position of the alert 'top right', 'top left', 'bottom left', 'bottom right'
+          )"
     >
         Click to Success alert
     </button>
@@ -61,6 +62,7 @@ There are 2 methods: ``showAlert(alertType: string, iconSize: number, iconType: 
 
 ``vue-basic-alert`` props:
   
+  - ``position``: position of the alert ``type: String``, default value is ``top right``
   - ``duration``: duration of transistions (ms)
   - ``closeIn``: Automatically close the alert in ``closeIn`` (ms). If you dont have this, you can close the alert manually
 
@@ -74,6 +76,7 @@ Please make sure to update tests as appropriate.
 Ready for production. We will update more styles in the ``2.0.0``.
  - ``1.0.4`` : 4 types of alert in just 1 style. ``readme.md``, ``vue-basic-alert`` is really basic.
  - ``1.0.5`` : Fixed bugs
+ - ``1.0.6`` : Update ``entry.esm.ts`` for import, Animation, more position
  - ``2.0.0`` : ``To-do`` 2 more styles and customizable icons, etc.
 
 ## License
