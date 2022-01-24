@@ -97,6 +97,7 @@ Ready for production. We will update more styles in the ``2.0.0``.
  - ``1.0.6`` : Update ``entry.esm.ts`` for import, Animations, more position
  - ``1.0.8`` : Fixed bugs
  - ``1.0.9`` : New demo page at ``https://jasonanger.github.io/vuebasicalert/`` [page](https://jasonanger.github.io/vuebasicalert/)
+ - ``1.1.0`` : Long-Term Support
  - ``2.0.0`` : ``To-do`` 2 more styles and customizable icons, etc.
 
 ## License

@@ -73,6 +73,8 @@
     <li><code>1.0.5</code> : Fixed bugs</li>
     <li><code>1.0.6</code> : Update <code>entry.esm.ts</code> for import, Animations, more position</li>
     <li><code>1.0.8</code> : Fixed CSS bugs</li>
+    <li><code>1.0.9</code> : New demo page at <code>https://jasonanger.github.io/vuebasicalert/</code> <a href="https://jasonanger.github.io/vuebasicalert/">page</a></li>
+    <li><code>1.1.0</code> : Long-Term Support</li>
     <li><code>2.0.0</code> : <code>To-do</code> 2 more styles and customizable icons, etc.</li>
     </ul>
     <h2 id="license">License</h2>
