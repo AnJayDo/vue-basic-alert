@@ -1,6 +1,6 @@
 {
   "name": "vue-basic-alert",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Basic Vue Alert Component for basic use cases.",
   "main": "dist/vue-basic-alert.ssr.js",
   "browser": "dist/vue-basic-alert.esm.js",
@@ -61,13 +61,15 @@
   },
   "keywords": [
     "vue-basic-alert",
-    "vue3",
     "v-alert",
     "vue-notification",
     "vue-popup-alert",
     "vue-simple-alert",
     "vue-basic-alert",
-    "front-end",
+    "vue3",
+    "vue",
+    "vuejs",
+    "front-end"
   ],
   "author": "Jason Anger",
   "license": "MIT",

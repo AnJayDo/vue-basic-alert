@@ -4,6 +4,8 @@ Basic Vue Alert Component for basic use cases.
 
 ## Demo
 
+Go to [Our demo page](https://jasonanger.github.io/vuebasicalert/) to check out.
+
 ![Alt Text](https://media3.giphy.com/media/esGefiT48Dnx947at6/giphy.gif)
 
 ## Installation
@@ -94,6 +96,7 @@ Ready for production. We will update more styles in the ``2.0.0``.
  - ``1.0.5`` : Fixed bugs
  - ``1.0.6`` : Update ``entry.esm.ts`` for import, Animations, more position
  - ``1.0.8`` : Fixed bugs
+ - ``1.0.9`` : New demo page at ``https://jasonanger.github.io/vuebasicalert/`` [page](https://jasonanger.github.io/vuebasicalert/)
  - ``2.0.0`` : ``To-do`` 2 more styles and customizable icons, etc.
 
 ## License

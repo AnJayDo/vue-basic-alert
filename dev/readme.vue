@@ -2,6 +2,7 @@
     <h1 id="vue-basic-alert">vue-basic-alert</h1>
     <p>Basic Vue Alert Component for basic use cases.</p>
     <h2 id="demo">Demo</h2>
+    <p>Go to <a href="https://jasonanger.github.io/vuebasicalert/">Our demo page</a> to check out.</p>
     <p><img src="https://media3.giphy.com/media/esGefiT48Dnx947at6/giphy.gif" alt="Alt Text"></p>
     <h2 id="installation">Installation</h2>
     <p>Use the node package manager <a href="https://www.npmjs.com/package/vue-basic-alert">npm</a> to install vue-basic-alert.</p>
